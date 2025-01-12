@@ -188,3 +188,11 @@ const handleAsyncOperation = async () => {
    - Implement proper error boundaries
    - Handle errors at appropriate levels
    - Provide user feedback for failures
+
+---
+
+## Navigation
+
+- Previous: [Memoization Patterns](./memoization-patterns.md)
+- Next: [Session Management](./session-management.md)
+- [Back to Home](../../README.md)

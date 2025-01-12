@@ -266,3 +266,11 @@ graph TD
 - [Session Management](./session-management.md)
 - [Performance Optimizations](../technical/performance.md)
 - [React Hooks Best Practices](../best-practices/hooks.md)
+
+---
+
+## Navigation
+
+- Previous: [Session Management](./session-management.md)
+- Next: [Async Patterns and Component Chain](./async-component-chain.md)
+- [Back to Home](../../README.md)

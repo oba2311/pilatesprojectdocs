@@ -160,3 +160,11 @@ function useTraineeSessions(sessions: Session[], traineeId?: string) {
 ### Scheduling System
 
 [Link to scheduling system documentation]
+
+---
+
+## Navigation
+
+- Previous: [Trainee Availability](../features/trainee-availability.md)
+- Next: [Refactoring Journey](../architecture/refactoring-journey.md)
+- [Back to Home](../../README.md)

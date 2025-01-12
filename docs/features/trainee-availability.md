@@ -82,3 +82,11 @@ When Alice's session is removed:
 - `sameHourPeople` is used by TraineeDropdown to filter available trainees
 - Removing a session triggers a chain reaction that makes the trainee available again
 - The system automatically updates all dropdowns when changes occur
+
+---
+
+## Navigation
+
+- Previous: [Refactoring Journey](../architecture/refactoring-journey.md)
+- Next: [Data Structures](../technical/data-structures.md)
+- [Back to Home](../../README.md)

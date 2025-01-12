@@ -166,3 +166,11 @@ graph TD
 - [Trainee Knowledge System](./trainee-knowledge.md)
 - [Scheduling System](./scheduling.md)
 - [Data Structures](../technical/data-structures.md)
+
+---
+
+## Navigation
+
+- Previous: [Async Patterns and Component Chain](./async-component-chain.md)
+- Next: [Memoization Patterns](./memoization-patterns.md)
+- [Back to Home](../../README.md)

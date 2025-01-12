@@ -324,3 +324,11 @@ Just as a basketball team needs different players with specialized skills:
 - Test each piece independently
 
 The key is to identify distinct responsibilities and create focused hooks that handle them well - just like how each basketball player masters their position!
+
+---
+
+## Navigation
+
+- Previous: [Data Structures](../technical/data-structures.md)
+- Next: [Trainee Availability](../features/trainee-availability.md)
+- [Back to Home](../../README.md)
