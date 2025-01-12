@@ -1,6 +1,7 @@
 module.exports = {
 	title: "Pilates Studio Documentation",
 	description: "Technical documentation for the Pilates Studio application",
+	appearance: "dark",
 	themeConfig: {
 		nav: [
 			{ text: "Home", link: "/" },
@@ -9,12 +10,35 @@ module.exports = {
 		],
 		sidebar: [
 			{
+				text: "Core Concepts",
+				items: [
+					{
+						text: "Session Management",
+						link: "/core-concepts/session-management",
+					},
+					{
+						text: "Memoization Patterns",
+						link: "/core-concepts/memoization-patterns",
+					},
+					{
+						text: "Async Patterns",
+						link: "/core-concepts/async-component-chain",
+					},
+				],
+			},
+			{
 				text: "Features",
 				items: [
 					{
 						text: "Trainee Availability System",
 						link: "/features/trainee-availability",
 					},
+				],
+			},
+			{
+				text: "Technical Details",
+				items: [
+					{ text: "Data Structures", link: "/technical/data-structures" },
 				],
 			},
 			{
@@ -27,5 +51,14 @@ module.exports = {
 				],
 			},
 		],
+	},
+	theme: {
+		logo: "/logo.png",
+	},
+	markdown: {
+		theme: {
+			light: "github-light",
+			dark: "github-dark",
+		},
 	},
 };
