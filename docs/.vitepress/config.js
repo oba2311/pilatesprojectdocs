@@ -1,7 +1,8 @@
-module.exports = {
+import DefaultTheme from "vitepress/theme";
+
+export default {
 	title: "Pilates Studio Documentation",
 	description: "Technical documentation for the Pilates Studio application",
-	appearance: "dark",
 	themeConfig: {
 		nav: [
 			{ text: "Home", link: "/" },
@@ -51,14 +52,14 @@ module.exports = {
 				],
 			},
 		],
-	},
-	theme: {
+		colorMode: {
+			defaultMode: "dark",
+			disableSwitch: true,
+			classSuffix: "",
+		},
 		logo: "/logo.png",
 	},
 	markdown: {
-		theme: {
-			light: "github-light",
-			dark: "github-dark",
-		},
+		theme: "material-palenight",
 	},
 };
