@@ -38,6 +38,83 @@
 	--vp-c-brand-light: #747bff;
 }
 
+/* Mermaid diagram styles for dark mode */
+.dark .mermaid {
+	background-color: var(--vp-c-bg-alt) !important;
+}
+
+/* Make all lines and arrows bright and visible */
+.dark .mermaid .flowchart-link,
+.dark .mermaid line,
+.dark .mermaid path,
+.dark .mermaid .path,
+.dark .mermaid .messageLink,
+.dark .mermaid .arrowheadPath,
+.dark .mermaid .marker {
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+/* Make arrow markers visible */
+.dark .mermaid #arrowhead path,
+.dark .mermaid .marker path,
+.dark .mermaid marker path {
+	fill: #ffffff !important;
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+/* Make text visible */
+.dark .mermaid .label text,
+.dark .mermaid .edgeLabel text,
+.dark .mermaid .nodeLabel text,
+.dark .mermaid text {
+	fill: #ffffff !important;
+	color: #ffffff !important;
+}
+
+/* Style nodes */
+.dark .mermaid .node rect,
+.dark .mermaid .node circle,
+.dark .mermaid .node ellipse,
+.dark .mermaid .node polygon,
+.dark .mermaid .node path {
+	fill: var(--vp-c-bg-soft) !important;
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+/* Style clusters */
+.dark .mermaid .cluster rect {
+	fill: var(--vp-c-bg-alt) !important;
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+/* Edge labels background */
+.dark .mermaid .edgeLabel {
+	background-color: var(--vp-c-bg-alt) !important;
+	color: #ffffff !important;
+}
+
+/* Composite relationships */
+.dark .mermaid .relation {
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+/* Class diagram specific */
+.dark .mermaid .classGroup rect,
+.dark .mermaid .classGroup line {
+	fill: var(--vp-c-bg-soft) !important;
+	stroke: #ffffff !important;
+	stroke-width: 2px !important;
+}
+
+.dark .mermaid .classLabel text {
+	fill: #ffffff !important;
+}
+
 /* Custom scrollbar for dark mode */
 .dark ::-webkit-scrollbar {
 	width: 8px;

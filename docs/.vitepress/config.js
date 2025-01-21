@@ -61,5 +61,22 @@ export default {
 	},
 	markdown: {
 		theme: "material-palenight",
+		config: (md) => {
+			md.use(require("markdown-it-mermaid"), {
+				mermaid: {
+					theme: "dark",
+					themeVariables: {
+						darkMode: true,
+						background: "#1a1a1a",
+						primaryColor: "#ffffff",
+						primaryTextColor: "#ffffff",
+						primaryBorderColor: "#ffffff",
+						lineColor: "#ffffff",
+						secondaryColor: "#2c2c2c",
+						tertiaryColor: "#242424",
+					},
+				},
+			});
+		},
 	},
 };
