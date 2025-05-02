@@ -1,0 +1,140 @@
+:root {
+	font-family: system-ui, -apple-system, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+
+	background: #f0f0f0;
+}
+
+.card {
+	padding: 2em;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 1em;
+}
+
+.button {
+	padding: 0.6em 1.2em;
+	border-radius: 4px;
+	border: 1px solid #646cff;
+	background: #646cff;
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.button:hover {
+	background: #747bff;
+	transform: translateY(-1px);
+}
+
+.error {
+	color: #ff4444;
+	margin-top: 1em;
+	padding: 1em;
+	background: rgba(255, 68, 68, 0.1);
+	border-radius: 4px;
+	border-left: 4px solid #ff4444;
+}
+
+.success {
+	color: #44ff44;
+	margin-top: 1em;
+}
+
+/* New styles for state visualization */
+.state-diff {
+	display: flex;
+	gap: 1rem;
+	padding: 1em;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+.state-container {
+	flex: 1;
+	padding: 1em;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+}
+
+.state-parent {
+	background: rgba(100, 108, 255, 0.1);
+	border: 2px solid #646cff;
+}
+
+.state-local {
+	background: rgba(255, 152, 0, 0.1);
+	border: 2px solid #ff9800;
+}
+
+.state-out-of-sync {
+	border-color: #ff4444;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255, 68, 68, 0.4);
+	}
+	70% {
+		box-shadow: 0 0 0 10px rgba(255, 68, 68, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(255, 68, 68, 0);
+	}
+}
+
+/* Code display styles */
+.code-section {
+	background: #1e1e1e;
+	color: #d4d4d4;
+	padding: 1.5em;
+	border-radius: 8px;
+	margin: 1em 0;
+	font-family: "Fira Code", monospace;
+	position: relative;
+}
+
+.code-section pre {
+	margin: 0;
+	overflow-x: auto;
+}
+
+.code-label {
+	position: absolute;
+	top: -12px;
+	left: 1em;
+	background: #646cff;
+	color: white;
+	padding: 0.2em 0.8em;
+	border-radius: 12px;
+	font-size: 0.85em;
+}
+
+/* Layout styles */
+.layout-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.diagram-section {
+	grid-column: 1 / -1;
+	background: white;
+	padding: 2em;
+	border-radius: 8px;
+	margin-top: 2em;
+}

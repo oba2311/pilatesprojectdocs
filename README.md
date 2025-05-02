@@ -12,6 +12,7 @@ Documentation for the Pilates Studio application, a modern web app for managing 
 
 - [Trainee Availability](docs/features/trainee-availability.md) - Feature documentation for trainee scheduling
 - [Data Structures](docs/technical/data-structures.md) - Technical details of data organization
+- [Firestore Real-Time Synchronization](docs/technical/state/firestore-sync-solution.md) - Technical details on how sessions are synchronized with Firestore
 - [Refactoring Journey](docs/architecture/refactoring-journey.md) - Overview of architectural decisions and improvements
 
 Visit our [GitHub Pages](https://obamain.github.io/pilates-studio-docs/) for the complete documentation.

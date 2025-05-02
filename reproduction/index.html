@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React State Race Condition Reproduction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fira-code@6.2.0/distr/fira_code.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#ffffff',
+                primaryTextColor: '#597ef7',
+                primaryBorderColor: '#597ef7',
+                lineColor: '#597ef7',
+                textColor: '#597ef7',
+                mainBkg: 'transparent',
+                nodeBorder: '#597ef7',
+                clusterBkg: 'transparent',
+                labelTextColor: '#597ef7',
+                titleColor: '#597ef7',
+                clusterBorder: '#fff',
+                edgeLabelBackground: 'transparent'
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
